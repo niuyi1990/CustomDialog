@@ -2,7 +2,7 @@
 #封装可以展示任意布局的自定义dialog，支持设置触摸是否消失和返回键是否消失
 #使用举例:
  
-#  CustomDialog.Builder builder = new CustomDialog.Builder(this);
+   CustomDialog.Builder builder = new CustomDialog.Builder(this);
         CustomDialog dialog = builder
                 .style(R.style.Dialog)
                 .heightDimenRes(R.dimen.dialog_height)
