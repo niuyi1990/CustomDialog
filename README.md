@@ -1,6 +1,8 @@
 # CustomDialog
 封装可以展示任意布局的自定义dialog，支持设置触摸是否消失和返回键是否消失
-使用举例
+使用举例:
+
+
  private void showDialog() {
         CustomDialog.Builder builder = new CustomDialog.Builder(this);
         dialog = builder
