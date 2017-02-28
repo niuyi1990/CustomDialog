@@ -3,6 +3,8 @@
 使用举例:
   采用bulider模式
   
+  #
+  
   CustomDialog.Builder builder = new CustomDialog.Builder(this);
         CustomDialog dialog = builder
                 .style(R.style.Dialog)
